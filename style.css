@@ -1,0 +1,180 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.upper::before{
+    background: url("/img/bg1.jpg");
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 556px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.header{
+    display: flex;
+    /* margin-top: 15px;
+    margin-left: 15px; */
+    align-items: center;
+    background-color: rgb(126 119 119 / 61%);
+}
+.left{
+    margin: 12px 12px;
+}
+.left img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    /* left: 12px; */
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.mid li{
+    list-style: none;
+}
+.mid li a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px 20px;
+}
+.item{
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+.item:hover{
+    background-color: gray;
+    border-radius: 34px;
+}
+.right{
+    position: absolute;
+    right: 45px;
+    top: 18px;
+}
+.right button{
+    font-size: 1.1rem;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(28, 26, 26);
+    padding: 10px;
+    border-width: 0px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.about{
+    font-family: cursive;
+    margin: 100px 150px;
+    padding: 50px 150px;
+}
+.about h2{
+    font-size: 3rem;
+    margin: 0px 100px;
+    padding: 15px 50px;
+}
+/* .middle{
+    background-color: rgba(127, 120, 120, 0.784);
+} */
+.boxs{
+    display: flex;
+}
+.box-1{
+    border: 2px solid red;
+    width: 31%;
+    margin: 12px 12px;
+    padding: 12px 12px;
+}   
+.heading{
+    font-family: cursive;
+    font-size: 1.8rem;
+}
+.box-1 h2{
+    padding: 10px 100px;
+}
+.png img{
+    height: 100px;
+    width: 100px;
+}
+.box-1 img{
+    padding: 5px 100px;
+    width: 150px;
+    height: 150px;
+}
+.box-2{
+    border: 2px solid red;
+    width: 31%;
+    margin: 12px 12px;
+    padding: 12px 12px;
+}
+.box-2 h2{
+    padding: 10px 100px;
+}
+.box-2 img{
+    padding: 5px 100px;
+    width: 150px;
+    height: 150px;
+}
+.box-3{
+    border: 2px solid red;
+    width: 31%;
+    margin: 12px 12px;
+    padding: 12px 12px;
+}
+.box-3 h2{
+    padding: 10px 100px;
+}
+.box-3 img{
+    padding: 5px 100px;
+    width: 200px;
+    height: 200px;
+}
+.text{
+    font-family: cursive;
+    padding: 5px 10px;
+}
+.clients div img{
+    width: 150px;
+    height: 150px;
+}
+.lower{
+    background: url('/img/bg2.jpg');
+}
+.head{
+    font-family: cursive;
+    font-size: 3rem;
+    color: white;
+    padding: 5px 300px;
+    margin: 5px 150px;
+}
+.clients{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.client-1{
+    margin: 12px 12px;
+    padding: 12px 12px;
+}
+.client-2{
+    margin: 12px 12px;
+    padding: 12px 12px;
+}
+.client-3{
+    margin: 12px 12px;
+    padding: 12px 12px;
+}
+.client-4{
+    margin: 12px 12px;
+    padding: 12px 12px;
+}
